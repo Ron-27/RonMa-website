@@ -1895,18 +1895,30 @@ ul.social-links li:last-child a {
   display: table-cell;
   padding: 0 0 0 15px;
   vertical-align: middle;
+  word-break: keep-all; /* Prevents words from breaking */
+  white-space: normal;  /* Ensures normal word wrapping */
+  hyphens: none; /* Disables hyphenation */
 }
 
 .info-block-w-icon .ci-text h4 {
   margin: 7px 0;
+  word-break: keep-all; /* Prevents words from breaking */
+  white-space: normal;  /* Ensures normal word wrapping */
+  hyphens: none; /* Disables hyphenation */
 }
 
 .info-block-w-icon .ci-text p {
   font-size: .92em;
+  word-break: keep-all; /* Prevents words from breaking */
+  white-space: normal;  /* Ensures normal word wrapping */
+  hyphens: none; /* Disables hyphenation */
 }
 
 .info-block-w-icon .ci-text p:last-child {
   margin-bottom: 0;
+  word-break: keep-all; /* Prevents words from breaking */
+  white-space: normal;  /* Ensures normal word wrapping */
+  hyphens: none; /* Disables hyphenation */
 }
 
 .info-block-w-icon i {
